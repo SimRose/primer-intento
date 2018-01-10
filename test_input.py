@@ -1,7 +1,16 @@
-numero_del_usuario = (input("¿Cuántos años tiene? "))
+numero_del_usuario = int(input("¿Cuanto es 3+2? "))
 if numero_del_usuario == 5:
-    print("correcto")
+    print("Correcto")
+    print("¡Hasta la próxima!")
 else:
-    print("falso")
-print("¡Hasta la próxima!")
+    print("Falso")
+    int(input("¿Cuanto es 3+2? "))
+    if numero_del_usuario == 5:
+        print("Correcto")
+        print("¡Hasta la próxima!")
+    else:
+        print("Falso")
+    print("¡Volvé al colegio!")
+
+
 
