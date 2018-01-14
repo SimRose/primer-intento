@@ -17,6 +17,7 @@ while intentos_restantes > 0:
     else:
         intentos_restantes -= 3
         print("¡Correcto!")
+        print("¡Has ganado!")
         print("¡Hasta la próxima!")
 
 if numero_del_usuario != numero_ganador:
